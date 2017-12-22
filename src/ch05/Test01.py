@@ -2,6 +2,8 @@
 @author Sam
 @date 2017-12-22
 @des 第五章pandas入门
+这里主要练习一下Series数据结构的花式创建、查询。
+Series 是一种类似于一维数组的对象。
 '''
 
 import pandas as pd
