@@ -2,7 +2,7 @@
 @author Sam
 @date 2017-12-22
 @des 第五章pandas入门
-这里主要练习一下Series数据结构的花式创建、查询。
+这里主要练习Series数据结构的花式创建、查询。
 Series 是一种类似于一维数组的对象。
 '''
 
@@ -39,7 +39,7 @@ sdata = {'chi': 12, 'hui': 32, 'ni': 16.32}
 obj3 = pd.Series(sdata)
 print(obj3)
 print('========================我就是分割线=============================')
-states = ['hui', 'ni', 'nimei']
+states = ['hui', 'ni', 'hello']
 obj4 = pd.Series(sdata, index=states)
 print(obj4)
 print('========================我就是分割线=============================')
