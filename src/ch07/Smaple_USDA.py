@@ -46,5 +46,5 @@ nutrients = nutrients.rename(columns=col_mapping, copy=False)
 
 ndata = pd.merge(nutrients, info, on='id', how='outer')
 print(ndata.tail())
-result = ndata.groupby(['nutrients', 'fgroup'])['value'].quantile(0.5)
-result['Zinc,Zn'].order().plot(kind='barh')
+result = ndata.groupby(['units', 'fgroup'])['value'].quantile(0.5)
+result['g','mg'].order().plot(kind='barh')
