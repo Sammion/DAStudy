@@ -5,6 +5,7 @@
 这里主要练习重塑层次化索引
 stack 将数据的列旋转为行
 unstack 将数据的行旋转为列
+
 '''
 import pandas as pd
 import numpy as np
