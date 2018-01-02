@@ -1,7 +1,7 @@
 '''
 @author Sam
 @date 2018-01-02
-@des 第七章 数据可视化
+@des 第八章 数据可视化
 这里主要练习Matplotlib创建canvas 
 Figure 和 Subplot
 '''
