@@ -28,4 +28,5 @@ for date, label in crisis_data:
 ax.set_xlim(['1/1/2007', '1/1/2011'])
 ax.set_ylim([600.0, 1800.0])
 ax.set_title('Important dates in 2008-2009 financial crisis')
+plt.savefig('result.png', dpi=400, bbox_inches='tight')
 plt.show()
