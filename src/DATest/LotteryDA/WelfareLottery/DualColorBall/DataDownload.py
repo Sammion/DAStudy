@@ -106,7 +106,7 @@ def down_load_data():
     browser.find_element_by_class_name("inpRa").clear()
     browser.find_element_by_class_name("inpRa").send_keys("2013-01-01")
     browser.find_element_by_class_name("inpRz").clear()
-    browser.find_element_by_class_name("inpRz").send_keys("2018-08-12")
+    browser.find_element_by_class_name("inpRz").send_keys("2018-08-30")
     browser.find_element_by_class_name("aRzR").click()
     ps = browser.page_source
     data_parse(ps)
